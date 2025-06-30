@@ -31,3 +31,25 @@ Before proceeding with the analysis, the following data cleaning and preparation
     -   **Why**: These features allow for analyzing annual trends, monthly seasonality, and daily order patterns.
 3.  **Duplicate Check**: The dataset was checked for duplicate rows based on all columns.
     -   **Why**: Duplicate records can skew analysis results by artificially inflating counts or averages. In this case, no duplicate rows were found.
+
+## Questions Explored via EDA
+
+**1. What are the overall order trends over time (yearly, monthly)?**
+
+**2. Which states contribute the most to the total orders?**
+
+**3. Which cities are the top performers in terms of order volume?**
+
+**4. Who are the most active customers (highest number of orders)?**
+
+**5. Is there any seasonality in the orders (e.g., specific months or days of the week with higher activity)?**
+
+**6. How do order volumes vary across cities within top states?**
+
+## Exploratory Data Analysis (EDA) & Visualizations
+The analysis utilizes value_counts() for frequency distributions and various plots from matplotlib.pyplot and seaborn for visualization.
+
+**1. Orders Over Time (Yearly Trend)**
+Description: This line plot visualizes the total number of orders placed each year.
+
+Insight: This helps in understanding the long-term growth or decline in order volumes. For this dataset, orders are primarily concentrated in 2018.
